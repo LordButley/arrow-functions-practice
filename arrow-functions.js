@@ -14,10 +14,13 @@ console.log(sum);
 const addFourNumbers = (a, b, c, d) => {
     return a + b + c + d;
 }
-console.log(addFourNumbers);
+console.log(addFourNumbers(1, 4, 5, 7));
 
 
 // Single Line Arrow Function With Parameters
+const multiplyTwoNumbers = (a, b) => a * b;
+console.log(multiplyTwoNumbers(3,5));
+
 
 // Implicit Returns
 
