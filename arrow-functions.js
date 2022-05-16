@@ -23,5 +23,15 @@ console.log(multiplyTwoNumbers(3,5));
 
 
 // Implicit Returns
-
+const divideFiveNumbers = (a,b,c,d,e) => a / b / c / d / e;
+console.log(divideFiveNumbers(10000, 10, 10, 10, 10));
 // Returning Multiple Lines
+
+const returnMultiLine = () => (
+    `This
+is 
+multiline
+`
+)
+
+console.log(returnMultiLine());
